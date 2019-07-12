@@ -44,4 +44,5 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 * A "Clear Jokes" button was added that allows users to easily clear all existing data about jokes from their local storage, in addition to reloading the page with ten new jokes.
 * The system that sorts jokes was modified to only sort jokes when new jokes are fetched or when the page reloads to prevent the jokes from rapidly jerking upwards or downwards when either upvoted or downvoted respectively.
 * The initial state of the application was modified so that the loading spinner shows if jokes are fetched when the application first loads.
+* Added additional emojis and changes existing ones
 * Some small tweaks in terms of formatting the code.
