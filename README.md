@@ -37,32 +37,11 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
+## Modifications
+**A list of the modifications made from the version of this project created in Colt Steeles React Boot-camp on Udemy:**
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+* The color scheme was changes to be more cohesive. Rather than blues, pinks, and purples, the application uses several shades of blue.
+* A "Clear Jokes" button was added that allows users to easily clear all existing data about jokes from their local storage, in addition to reloading the page with ten new jokes.
+* The system that sorts jokes was modified to only sort jokes when new jokes are fetched or when the page reloads to prevent the jokes from rapidly jerking upwards or downwards when either upvoted or downvoted respectively.
+* The initial state of the application was modified so that the loading spinner shows if jokes are fetched when the application first loads.
+* Some small tweaks in terms of formatting the code.
